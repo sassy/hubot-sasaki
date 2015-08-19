@@ -66,12 +66,6 @@ module.exports = (robot) ->
   robot.hear /ピンチ/i, (msg) ->
     msg.reply baseUrl + "pink.jpg"
 
-  robot.enter (msg) ->
-    msg.send "Hello"
-
-  robot.leave (msg) ->
-    msg.send "バイバイあーりん!"
-
   robot.respond /shutdown/i, (msg) ->
     msg.send "バイバイあーりん " + baseUrl + "bye.jpg"
     setTimeout () ->
