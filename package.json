@@ -34,7 +34,7 @@
     "hubot": "3.3.2",
     "matchdep": "2.0.0",
     "mocha": "8.1.1",
-    "sinon": "9.0.3",
+    "sinon": "15.2.0",
     "sinon-chai": "3.5.0"
   },
 
